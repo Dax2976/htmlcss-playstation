@@ -1,0 +1,14 @@
+:root{
+--btn_primary_blue: rgba(45, 100, 230, 1);
+--btn_secondary_dark: rgba(54, 54, 54, 1);
+--btn_third_red: rgba(205, 61, 15, 1);
+--btn_fourth_transparent: rgba(217, 218, 220, 1);
+--bg_ps_plus: rgba(190, 188, 187, 1);
+--bg_ps_now: rgba(0, 67, 156, 1);
+--bg_footer: rgba(22, 28, 59, 1);
+}
+
+.top_header{
+    height: 40px;
+    background-color: black;
+}
