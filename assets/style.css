@@ -7,8 +7,44 @@
 --bg_ps_now: rgba(0, 67, 156, 1);
 --bg_footer: rgba(22, 28, 59, 1);
 }
-
-.top_header{
-    height: 40px;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header_up{
+    height: 30px;
     background-color: black;
+}
+
+#accedi_btn{
+    background-color: var(--btn_secondary_dark);
+    border-radius: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.jumbotron{
+    width: 100%;
+    height: auto;
+    background-image: url(../img_4/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.j_cont{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 50px;
+}
+
+
+.j_cont p{
+max-width: 540px;
+}
+
+.j_cont .btn{
+    background-color: var(--btn_third_red);
+    width: 150px;
+    border-radius: 80px;
 }

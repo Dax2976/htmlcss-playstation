@@ -10,13 +10,83 @@
     <script src="https://kit.fontawesome.com/d1877440bf.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="site_header">
-        <div class="top_header d-flex justify-content-end">
+      <div class="site_header">
+        <div class="header_up d-flex justify-content-end">
             <img src="./img_4/sony_logo.svg" class="py-2 p-3" alt="logo sony">
         </div>
-    </div>
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <img src="./img_4/play_logo.svg" alt="" class="mx-3">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link active" aria-current="page" href="#">Giochi<i class=" ms-2 fa-solid fa-chevron-down"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Hardware<i class=" ms-2 fa-solid fa-chevron-down"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Servizi<i class=" ms-2 fa-solid fa-chevron-down"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Novità<i class=" ms-2 fa-solid fa-chevron-down"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Fai acquisti<i class=" ms-2 fa-solid fa-chevron-down"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page"  href="#">Supporto<i class=" ms-2 fa-solid fa-chevron-down"></i></a>
+                  </li>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"><i class="text-center fs-2 fa-solid fa-bars"></i></span>
+                </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                  <ul class="navbar-nav mb-2 mb-lg-0">
+                      <li class="nav-item d-lg-none d-xl-block">
+                          <a class="nav-link text-black" href="#">My Playstation <i class="ms-2 fa-solid fa-angle-down"></i></a>
+                      </li>
+                      <li class="nav-item d-lg-none d-xl-block mx-2">
+                          <a  id="accedi_btn"class="nav-link  btn text-white" href="#">Accedi</a>
+                      </li>
+                      <li class="nav-item d-lg-none d-xl-block">
+                          <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass mx-2"></i></a>
+                      </li>
+                  </ul>
+              </div>
+            </div>
+            </div>
+          </nav>
+      </div>
     <!-- /.site_header -->
-    <div class="site_main"></div>
+    <div class="site_main">
+      <section class="jumbotron pb-3">
+        <div class="j_cont">
+          <div class="j_logo w-25 py-5">
+            <img src="./img_4/returnal-hero-banner-logo.png" alt="" class="w-100 h-100">
+          </div>
+          <h1 class="text-white py-3">
+            Rompi il cerchio
+        </h1>
+        <p class="text-white py-3 fw-bold">
+            Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo
+            thriller fantascientifico, disponibile in esclusiva su PS5
+        </p>
+        <button id="acquista_ora_btn"class="btn fw-bold text-white" type="submit">Acquista ora</button>
+    </div>
+        </div>
+      </section>
+    </div>
     <!-- /.site_main -->
     <div class="site_footer"></div>
     <!-- /.site_footer -->
