@@ -48,3 +48,32 @@ max-width: 400px;
     width: 150px;
     border-radius: 80px;
 }
+
+.cards_container img{
+    border-radius: 20px;
+    padding: 3px;
+}
+.cards_container img:hover{
+    border: 2px solid #3F94DA;
+    cursor: pointer;
+}
+
+#btn_info{
+    background-color: var(--btn_primary_blue);
+    border-radius: 80px;
+    
+}
+
+.ps_hardware{
+    padding: 10px;
+}
+
+.ps_hardware:hover{
+    border-bottom: 2px solid var(--btn_primary_blue);
+}
+
+.img_hardw img:hover{
+    opacity: 100 !important;
+    transition: 1s;
+    cursor: pointer;
+}
