@@ -77,3 +77,13 @@ max-width: 400px;
     transition: 1s;
     cursor: pointer;
 }
+
+.take_two{
+    background-image: url(../img_4/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+}
+.tw_cont button{
+    background-color: var(--btn_third_red);
+    border-radius: 80px;
+   
+}
