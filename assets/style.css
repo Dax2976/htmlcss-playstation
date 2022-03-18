@@ -111,9 +111,14 @@ p{
 }
 
 .ps_plus{
+    width: 100%;
     background-color: var(--bg_ps_plus);
 }
 
 #ps_plus_btn{
     background-color: var(--ps_plus_btn);
+}
+
+.padding_top{
+    padding-top: 120px;
 }
