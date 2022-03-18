@@ -7,6 +7,8 @@
 --bg_ps_now: rgba(0, 67, 156, 1);
 --bg_footer: rgba(22, 28, 59, 1);
 --new_relase: rgba(31, 31, 31, 1);
+--ps_plus_btn: rgba(217, 218, 220, 1);
+
 
 }
 body{
@@ -106,4 +108,12 @@ max-width: 400px;
 
 p{
     color: grey;
+}
+
+.ps_plus{
+    background-color: var(--bg_ps_plus);
+}
+
+#ps_plus_btn{
+    background-color: var(--ps_plus_btn);
 }
