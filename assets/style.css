@@ -4,8 +4,8 @@
 --btn_third_red: rgba(205, 61, 15, 1);
 --btn_fourth_transparent: rgba(217, 218, 220, 1);
 --bg_ps_plus: rgba(190, 188, 187, 1);
---bg_ps_now: rgba(0, 67, 156, 1);
---bg_footer: rgba(22, 28, 59, 1);
+--bg_ps_now: rgba(22, 28, 59, 1);
+--bg_footer:rgba(0, 67, 156, 1);
 --new_relase: rgba(31, 31, 31, 1);
 --ps_plus_btn: rgba(217, 218, 220, 1);
 
@@ -121,4 +121,19 @@ p{
 
 .padding_top{
     padding-top: 120px;
+}
+
+
+.ps_now{
+    width: 100%;
+    background-color: var(--bg_ps_now);
+}
+
+#ps_now_btn{
+    background-color: white;
+}
+
+.site_footer{
+    background-color: var(--bg_footer);
+    height: 500px;
 }
