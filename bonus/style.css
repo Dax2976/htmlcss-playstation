@@ -1,0 +1,56 @@
+:root{
+    --btn_primary_blue: rgba(45, 100, 230, 1);
+    --btn_secondary_dark: rgba(54, 54, 54, 1);
+    --btn_third_red: rgba(205, 61, 15, 1);
+    --btn_fourth_transparent: rgba(217, 218, 220, 1);
+    --bg_ps_plus: rgba(190, 188, 187, 1);
+    --bg_ps_now: rgba(22, 28, 59, 1);
+    --bg_footer:rgba(0, 67, 156, 1);
+    --new_relase: rgba(31, 31, 31, 1);
+    --ps_plus_btn: rgba(217, 218, 220, 1);
+    
+    
+}
+
+
+
+
+.jumbotron{
+    width: 100%;
+    height: auto;
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/horizon-forbidden-west-screenshot-09-disclaimer-02oct20?$1600px$);
+    background-size: cover;
+    background-position: center;
+}
+
+.j_cont{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 50px;
+}
+
+
+.j_cont p{
+max-width: 400px;
+}
+
+.btn{
+    background-color: var(--btn_primary_blue);
+    width: 300  px;
+    border-radius: 80px;
+}
+
+.jumbotron2{
+    width: 100%;
+    height: auto;
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/gran-turismo-7-screenshot-05-en-12jun20?$1600px$);
+    background-size: cover;
+    background-position: center;
+}
+
+#info_white{
+    background-color: green;
+
+}
