@@ -135,5 +135,18 @@ p{
 
 .site_footer{
     background-color: var(--bg_footer);
-    height: 500px;
+    padding: 60px;
+}
+
+.list_footer ul{
+    list-style: none;
+}
+.lista_footer ul li{
+    color:white;
+    list-style: none;
+    cursor: pointer;
+}
+.logo_sie{
+    min-width: 100px;
+    width: 50%;
 }
