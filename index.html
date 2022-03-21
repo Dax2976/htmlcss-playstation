@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/d1877440bf.js" crossorigin="anonymous"></script>
 </head>
 <body>
-      <div class="site_header">
+      <header class="site_header">
         <div class="header_up d-flex justify-content-end">
             <img src="./img_4/sony_logo.svg" class="py-2 p-3" alt="logo sony">
         </div>
@@ -23,7 +23,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Giochi<i class=" ms-2 fa-solid fa-angle-down"></i></a>
+                    <a class="nav-link dropdown" aria-current="page" href="#">Giochi<i class=" ms-2 fa-solid fa-angle-down"></i></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link " aria-current="page" href="#">Hardware<i class=" ms-2 fa-solid fa-angle-down"></i></a>
@@ -40,13 +40,6 @@
                   <li class="nav-item">
                     <a class="nav-link" aria-current="page"  href="#">Supporto<i class=" ms-2 fa-solid fa-angle-down"></i></a>
                   </li>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
                 </ul>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"><i class="text-center fs-2 fa-solid fa-bars"></i></span>
@@ -57,7 +50,7 @@
                           <a class="nav-link" href="#">My Playstation <i class="ms-2 fa-solid fa-angle-down"></i></a>
                       </li>
                       <li class="nav-item d-lg-none d-xl-block mx-2">
-                          <a  id="accedi_btn"class="nav-link  btn text-white" href="./bonus/index.html">Accedi</a>
+                          <a  id="accedi_btn" class="nav-link  btn text-white" href="./bonus/index.html">Accedi</a>
                       </li>
                       <li class="nav-item d-lg-none d-xl-block">
                           <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass mx-2"></i></a>
@@ -67,7 +60,47 @@
             </div>
             </div>
           </nav>
-      </div>
+          <div class="hover_dropdown">
+            <div class="row w-50 m-auto mt-4">
+                <div class="col-4">
+                    <img class="img-fluid" src="./img_4/play-menu-ico.png" alt="">
+                    <div>
+                        Playstation 5
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img class="img-fluid" src="../img_4/play-menu-ico.png" alt="">
+                    <div>
+                        Playstation 4
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img class="img-fluid" src="../img_4/play-menu-ico.png" alt="">
+                    <div>
+                        Playstation 3
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row w-50 m-auto mt-4">
+                <div class="col-4">
+                    <li>
+                        <a class="text-decoration-none link-dark" href="">Link Servizi</a>
+                    </li>
+                </div>
+                <div class="col-4">                    
+                    <li>
+                        <a class="text-decoration-none link-dark" href="">Link servizi</a>
+                    </li>
+                </div>
+                <div class="col-4">
+                    <li>
+                        <a class="text-decoration-none link-dark" href="">Link servizi</a>
+                    </li>
+                </div>                
+            </div>
+        </div>
+      </header>
     <!-- /.site_header -->
     <div class="site_main">
       <section class="jumbotron pb-3">
@@ -75,38 +108,37 @@
           <div class="j_logo w-25 py-5">
             <img src="./img_4/returnal-hero-banner-logo.png" alt="" class="w-100 h-100">
           </div>
-          <h1 class="text-white py-3">
+            <h1 class="text-white py-3">
             Rompi il cerchio
-          </h1>
-          <p class="text-white py-3 fw-bold">
+            </h1>
+            <p class="text-white py-3 fw-bold">
             Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo
             thriller fantascientifico, disponibile in esclusiva su PS5
-          </p>
-        <button id="acquista_ora_btn"class="btn fw-bold text-white" type="submit">Acquista ora
-        </button>
-      </div>
-      </div>
+            </p>
+            <button id="acquista_ora_btn" class="btn fw-bold text-white" type="submit">Acquista ora
+            </button>
+        </div>
       </section>
       <section class="cards">
         <div class="container">
           <div class="row cards_container mb-5 p-3">
             <div class="col-6 col-md-4 col-lg-2">
-              <img src="./img_4/returnal-listing-thumb-01-ps5.jpg" alt="" class="w-100">
+              <img src="./img_4/returnal-listing-thumb-01-ps5.jpg" alt="" class="w-100 carousel-img">
             </div>
             <div class="col-6 col-md-4 col-lg-2">
-              <img src="./img_4/ratchet-and-clank-rift-apart-keyart.jpg" alt="" class="w-100">
+              <img src="./img_4/ratchet-and-clank-rift-apart-keyart.jpg" alt="" class="w-100 carousel-img">
             </div>
             <div class="col-6 col-md-4 col-lg-2">
-              <img src="./img_4/returnal-listing-thumb-01-ps5.jpg" alt="" class="w-100">
+              <img src="./img_4/returnal-listing-thumb-01-ps5.jpg" alt="" class="w-100 carousel-img">
             </div>
             <div class="col-6 col-md-4 col-lg-2">
-              <img src="./img_4/ratchet-and-clank-rift-apart-keyart.jpg" alt="" class="w-100">
+              <img src="./img_4/ratchet-and-clank-rift-apart-keyart.jpg" alt="" class="w-100 carousel-img">
             </div>
             <div class="col-6 col-md-4 col-lg-2">
-              <img src="./img_4/returnal-listing-thumb-01-ps5.jpg" alt="" class="w-100">
+              <img src="./img_4/returnal-listing-thumb-01-ps5.jpg" alt="" class="w-100 carousel-img">
             </div>
             <div class="col-6 col-md-4 col-lg-2">
-              <img src="./img_4/ratchet-and-clank-rift-apart-keyart.jpg" alt="" class="w-100">
+              <img src="./img_4/ratchet-and-clank-rift-apart-keyart.jpg" alt="" class="w-100 carousel-img">
             </div>
           </div>
         </div>
@@ -123,7 +155,7 @@
             <div class="col-12 col-md-6 align-self-center">
               <h3>Console Playstation 5</h3>
               <p>Sperimenta la nuova generazione di incredibili giochi Playstation.</p>
-              <button id="btn_info"class="btn text-white fw-bold" type="submit">Maggiori informazioni</button>
+              <button id="btn_info" class="btn text-white fw-bold" type="submit">Maggiori informazioni</button>
             </div>
             <div class="col-12 col-md-6">
               <img src="./img_4/playstation-5-thumb.png" alt="" class="w-75">
@@ -168,7 +200,7 @@
             </div>
             <h2 class="text-white py-3 w-25">Un'avventura cooperativa selvaggia ti attende</h2>
             <p class="text-white w-25 py-3">Trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Take Two, un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere</p>
-            <button id="acquista_ora_btn"class="btn fw-bold text-white" type="submit">Acquista ora
+            <button id="acquista_ora_btn" class="btn fw-bold text-white" type="submit">Acquista ora
             </button>
           </div>
         </div>
@@ -311,14 +343,15 @@
               <br> <a href="#" class="btn btn-primary rounded-pill mt-2">Scopri di più</a>
             </div>
           </div>
+        </div>
       </section>
       <!-- /ps4 -->
       <!-- psplus -->
       <div class="ps_plus py-5 py-md-0">
         <div class="container-fluid">
           <div class="row">
-            <div class="col padding_top px-5">
-              <div class="card border-0 bg-transparent align-self-center">
+            <div class="col padding_top px-5  align-self-center">
+              <div class="card border-0 bg-transparent align-self-center ">
                 <img src="./img_4/ps-plus-logo.png" class="card-img-top" alt="" style="width: 60%; padding-bottom: 30px;">
               </div>
               <div class="card-body px-0 pb-0">
@@ -349,13 +382,14 @@
           <div class="col-12 col-md-4">
             <img src="./img_4/playstation-store-free-to-play-spotlight.png" class="card-img-top" alt="">
           </div>
+        </div>
       </section>
       <!-- /sconti -->
       <!-- psnow -->
       <div class="ps_now py-5 py-md-0">
         <div class="container-fluid">
           <div class="row">
-            <div class="col padding_top px-5">
+            <div class="col px-5 align-self-center">
               <div class="card border-0 bg-transparent align-self-center">
                 <img src="./img_4/ps-now-logo-two-column.png" class="card-img-top" alt="" style="width: 60%; padding-bottom: 30px;">
               </div>
@@ -395,7 +429,7 @@
     </div>
     <!-- /.site_main -->
     <div class="site_footer">
-      <section class="">
+      <section>
         <div class="container-fluid py-5">
           <div class="row justify-content-between">
             <div class="footer-logo col-12 col-md-6">
@@ -405,28 +439,30 @@
               </div>
             </div>
             <div class="col-12 col-md-6 d-flex justify-content-lg-end mt-3">
-              <div class="lista_footer d-flex flex-collumn flex-md-row space-around">
+              <div class="lista_footer d-flex flex-collumn flex-md-row space-around py-5">
                 <ul>
-                  <li>Link footer n</li>
-                  <li>Link footer n</li>
-                  <li>Link footer n</li>
-                  <li>Link footer n</li>
+                  <li>Supporto</li>
+                  <li>Informativa sulla privacy e sui <br> cookie</li>
+                  <li>Termini di utilizzo del sito Web</li>
+                  <li>PlayStation Studios</li>
+                  <li>Termini legali</li>
+                  <li>Chi siamo</li>
+                  <li>PlayStation e l'ambiente</li>
                 </ul>
                 <ul>
-                  <li>Link footer n</li>
-                  <li>Link footer n</li>
-                  <li>Link footer n</li>
-                  <li>Link footer n</li>
-                  <li>Link footer n</li>
-                  <li>Link footer n</li>
-                  <li>Link footer n</li>
-                  <li>Link footer n</li>
+                  <li>Termini di servizio di PSN</li>
+                  <li>Termini di annullamento del PS <br> Store</li>
+                  <li>Avvertenze per la salute</li>
+                  <li>Classificazioni per età</li>
+                  <li>Termini d'uso del Software</li>
+                  <li>Lavora con PlayStation</li>
+                  <li>Mappa del sito</li>
                 </ul>
                 <ul>
-                  <li>Link footer n</li>
-                  <li>Link footer n</li>
-                  <li>Link footer n</li>
-                  <li>Link footer n</li>
+                  <li>Facebook</li>
+                  <li>Twitter</li>
+                  <li>Youtube</li>
+                  <li>Instagram</li>
                 </ul>
               </div>
             </div>
